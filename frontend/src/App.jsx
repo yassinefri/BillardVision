@@ -11,7 +11,7 @@ export default function App() {
 
   // 📷 Capture une photo depuis la webcam
   const capturePhoto = () => {
-    
+
     if (!videoRef.current || !canvasRef.current) return;
 
     const canvas = canvasRef.current;
@@ -51,7 +51,7 @@ export default function App() {
     formData.append("file", image);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/detect", {
+      const response = await fetch("http://35.180.199.30:8000/detect", {
         method: "POST",
         body: formData,
       });
