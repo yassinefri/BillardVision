@@ -1,0 +1,13 @@
+train: C:\Users\friki\OneDrive\Desktop\BillardVision\BillardVision\train\model\train\images
+val: C:\Users\friki\OneDrive\Desktop\BillardVision\BillardVision\train\model\valid\images
+test: C:\Users\friki\OneDrive\Desktop\BillardVision\BillardVision\train\model\test\images
+
+nc: 3
+names: ['mom', 'pockw', 'son']
+
+roboflow:
+  workspace: adam-shortland-wsc62
+  project: billiard-balls-orjvo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/adam-shortland-wsc62/billiard-balls-orjvo/dataset/1
